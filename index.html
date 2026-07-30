@@ -1,21 +1,87 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Test Application 1 - Home Page</title>
-</head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-K1Z2DL7QYL"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-K1Z2DL7QYL');
-</script>
-<body>
-
-<h1>Home Page</h1>
-<p>Some content goes here</p>
-
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Epidemiology Poster References</title>
+      <style>
+    :root {
+      color-scheme: light;
+      --text: #1f2937;
+      --muted: #4b5563;
+      --link: #005ea8;
+      --surface: #ffffff;
+      --page: #f3f4f6;
+      --border: #d1d5db;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--page);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+    }
+    main {
+      width: min(900px, calc(100% - 32px));
+      margin: 40px auto;
+      padding: 40px clamp(24px, 5vw, 64px);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      box-shadow: 0 4px 18px rgba(0,0,0,.06);
+    }
+    h1 {
+      margin: 0 0 28px;
+      font-size: clamp(1.75rem, 4vw, 2.25rem);
+      line-height: 1.2;
+    }
+    .references { margin: 0; padding: 0; list-style: none; }
+    .references li {
+      margin: 0 0 1rem 2rem;
+      text-indent: -2rem;
+      overflow-wrap: anywhere;
+    }
+    a { color: var(--link); text-decoration-thickness: .08em; text-underline-offset: .15em; }
+    a:hover, a:focus { text-decoration-thickness: .14em; }
+    @media (max-width: 600px) {
+      main { width: 100%; margin: 0; border: 0; border-radius: 0; padding: 24px 18px; }
+      .references li { margin-left: 1.5rem; text-indent: -1.5rem; }
+    }
+    @media print {
+      body { background: #fff; }
+      main { width: 100%; margin: 0; padding: 0; border: 0; box-shadow: none; }
+      a { color: inherit; text-decoration: none; }
+    }
+  </style>
+  </head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1Z2DL7QYL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-K1Z2DL7QYL');
+  </script>
+  
+  <body>
+  <main>
+    <h1><strong>References</strong></h1>
+    <ol class="references" aria-label="Reference list">
+      <li>Centers for Disease Control and Prevention, National Center for Health Statistics. (2024). <em>Hypertension—Health, United States.</em> <a href="https://www.cdc.gov/nchs/hus/sources-definitions/hypertension.htm" target="_blank" rel="noopener noreferrer">https://www.cdc.gov/nchs/hus/sources-definitions/hypertension.htm</a></li>
+      <li>Downing, M., Bull, C., Chavis, T., Modrow, M., McConnell, G., Harr, C., &amp; Williams, J. (2023). Results of a postoperative telemedicine trial after cardiac surgery and incorporation into practice. <em>JTCVS Open</em>, 16, 500-506. <a href="https://doi.org/10.1016/j.xjon.2023.09.016" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.xjon.2023.09.016</a></li>
+      <li>Fryar, C. D., Kit, B. K., Carroll, M. D., &amp; Afful, J. (2024). <em>Hypertension prevalence, awareness, </em> <em>treatment, and control among adults age 18 and older: United States, August 2021–August 2023 </em>(NCHS Data Brief No. 511). National Center for Health Statistics. <a href="https://doi.org/10.15620/cdc/164016" target="_blank" rel="noopener noreferrer">https://doi.org/10.15620/cdc/164016</a></li>
+      <li>Ghandakly, E. C., Iacona, G. M., &amp; Bakaeen, F. G. (2024). Coronary Artery Surgery: Past, Present, and Future. <em>Rambam Maimonides Med J</em><em>ournal</em>, 15(1). <a href="https://doi.org/10.5041/RMMJ.10515" target="_blank" rel="noopener noreferrer">https://doi.org/10.5041/RMMJ.10515</a></li>
+      <li>Graham, L. A., Hawn, M. T., Dasinger, E. A. Baker, S. J., Oriel, B. S., Wahl, T. S., Richman, J. S., Copeland, L. A., Itani, K. M. F., Burns, E. A., Whittle, J., &amp; Morris, M. S. (2021). Psychosocial determinants of readmission after surgery. <em>Medical Care, 59</em>(10), 864-871. <a href="https://doi.org/10.1097/MLR.0000000000001600" target="_blank" rel="noopener noreferrer">https://doi.org/10.1097/MLR.0000000000001600</a></li>
+      <li>Kachel, E., Constantini, K., Nachman, D., Carasso, S., Littman, R., Eisenkraft, A., &amp; Gepner, Y. (2021). A pilot study of blood pressure monitoring after cardiac surgery using a wearable, non-invasive sensor. <em>Frontiers in Medicine, 8</em>, Article 693926. <a href="https://doi.org/10.3389/fmed.2021.693926" target="_blank" rel="noopener noreferrer">https://doi.org/10.3389/fmed.2021.693926</a></li>
+      <li>Mori, M., Dhruva, S. S., Geirsson, A., &amp; Krumholz, H. M. (2022). Characterization of multi-domain postoperative recovery trajectories after cardiac surgery using a digital platform. <em>NPJ Digital Medicine, 5</em>(1), 192. <a href="https://doi.org/10.1038/s41746-022-00736-0" target="_blank" rel="noopener noreferrer">https://doi.org/10.1038/s41746-022-00736-0</a></li>
+      <li>Murdaugh, C. L., Parsons, M. A., &amp; Pender, N. J. (2019). <em>Health Promotion in Nursing Practice</em> (8th ed.). Pearson Education.</li><li>Prisacariu, I., Iorescu, L. V., Aboueddahab, C., Taheri, M., Beneki, E., Akinci, B., Batalik, L., Dumitrescu, S. I., Marketou, M., &amp; Perone, F. (2026). Cardiac rehabilitation in patient after coronary bypass grafting: Core components and long-term follow-up. <em>Journal of Clinical Medicine, 15</em>(3), 1103. <a href="https://doi.org/10.3390/jcm15031103" target="_blank" rel="noopener noreferrer">https://doi.org/10.3390/jcm15031103</a></li>
+      <li>Sarkar, S., MacLeod, J., Hassan, A., Brunt, K. R., Palmer, K., &amp; Légaré, J. F. (2022). Enhanced telehealth home-monitoring intervention for vulnerable and frail patients after cardiac surgery (THE-FACS pilot intervention study). <em>BMC Geriatrics, 22</em>(1), Article 836. <a href="https://doi.org/10.1186/s12877-022-03531-4" target="_blank" rel="noopener noreferrer">https://doi.org/10.1186/s12877-022-03531-4</a></li>
+      <li>Shawon, M. S. R., Odutola, M., Falster, M. O., &amp; Jorm, L. R. (2021). Patient and hospital factors associated with 30-day readmissions after coronary artery bypass graft (CABG) surgery: A systematic review and meta-analysis. <em>Journal of Cardiothoracic Surgery, 16</em>(1), 172. <a href="https://doi.org/10.1186/s13019-021-01556-1" target="_blank" rel="noopener noreferrer">https://doi.org/10.1186/s13019-021-01556-1</a></li>
+      <li>Shen, T., Chen, Q., Leng, T., Gu, M., Luo, L., Jiang, F., &amp; Huang, X. (2025). The effect of family support on self-management behavior in postoperative cardiac surgery patients: A cross-sectional study. <em>Reviews in Cardiovascular Medicine, 26</em>(5), 31261. <a href="https://doi.org/10.31083/RCM31261" target="_blank" rel="noopener noreferrer">https://doi.org/10.31083/RCM31261</a></li>
+      <li>Woodend, A. K., Sherrard, H., Fraser, M., Stuewe, L., Cheung, T., &amp; Struthers, C. (2008). Telehome monitoring in patients with cardiac disease who are at high risk of readmission. <em>Heart &amp; Lung, 37</em>(1), 36–45. <a href="https://doi.org/10.1016/j.hrtlng.2007.04.0046.01.015" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.hrtlng.2007.04.0046.01.015</a></li>
+    </ol>
+  </main>
 </body>
 </html>
